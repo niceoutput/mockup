@@ -1,8 +1,30 @@
 {
-    "Post": {
-        "title": "string",
-        "views": "int",
-        "published": "boolean",
-        "createdAt": "date"
+    "data": {
+        "id": 1,
+        "type": "SUV",
+        "title": "BMW X6",
+        "model": "3L M Sport 30d",
+        "price": {
+            "final": "€33.500",
+            "monthly": "€548"
+        },
+        "info": {
+            "miles": "13,914",
+            "year": 2017
+        }
+    },
+    {
+        "id": 2,
+        "type": "Sport",
+        "title": "Alfa Romeo Giulia",
+        "model": "2L Veloce T",
+        "price": {
+            "final": "€22.500",
+            "monthly": "€295"
+        },
+        "info": {
+            "miles": "20,688",
+            "year": 2017
+        }
     }
 }
